@@ -8,16 +8,18 @@
   var gems = [
     {
       name: 'Ruby',
-      price: 2.95,
-      description: '.  .  .  ',
+      price: 2,
+      description: 'pink to blood-red colored gemstone',
       canPurchase: true,
       soldOut: true,
+      image: "http://www.clker.com/cliparts/3/w/C/c/I/Y/pink-gem-md.png"
     }, {
-      name: 'Saphire',
+      name: 'Sapphire',
       price: 5.95,
-      description: '.  .  .  ',
+      description: 'blue gemstone variety of the mineral corundum, an aluminium oxide',
       canPurchase: false,
       soldOut: false,
+      image: "http://4vector.com/thumb_data/v4l-120947.jpg"
     }
   ];
 
