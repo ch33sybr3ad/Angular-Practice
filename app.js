@@ -12,7 +12,19 @@
       description: 'pink to blood-red colored gemstone',
       canPurchase: true,
       soldOut: true,
-      image: "http://www.clker.com/cliparts/3/w/C/c/I/Y/pink-gem-md.png"
+      image: "http://www.clker.com/cliparts/3/w/C/c/I/Y/pink-gem-md.png",
+      reviews: [
+        {
+          stars: 5,
+          body: "I love this product!",
+          author: "jason@zhao.com"
+        },
+        {
+          stars: 2,
+          body: "This product was okay",
+          author: "product@hater.com"
+        }
+      ],
     }, {
       name: 'Sapphire',
       price: 5.95,
