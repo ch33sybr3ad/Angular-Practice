@@ -6,7 +6,12 @@
   </head>
   <body>
     <p> I am {{ 4 + 6 }} </p>
-    <p> {{ "hello " + "you"}} </p>
+    <div ng-controller="StoreController as store">
+      <h1> {{store.product.name}} </h1>
+      <h2> ${{store.product.price}} </h2>
+      <p> {{store.product.description}} </p>
+      <button ng-show="store.product.canPurchase"> Add to Cart </button>
+    </div>
 
     <script type="text/javascript" src="./stylesheet/angular.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
